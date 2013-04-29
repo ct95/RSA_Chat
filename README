@@ -1,0 +1,14 @@
+@Author: Chen-Wei Tang
+
+<How does the program work>
+There are 4 files on the code repository. They are Rsa.java ChatServer.java ChatClient.java RsaCrack.java respectively. The Rsa.java is the basic blue print for any object uses RSA cryptosystem. The ChatServer.java and ChatClient.java are the client and server of this chat program. The RsaCrack.java is to crack a key using a brute force algorithm to decrypt an unknown user's ciphertext.
+
+<How to run this program>
+(1) open 2 terminals and ssh onto either minus/plus/ampersand (choose one and be consistant with it)
+(2) run server in one terminal and run client in the other.
+(3) follow the instruction shown on terminal, and you're good to chat.
+  [Note: all your messages are RSA encripted, and all the incomoing messages are RSA-decrypted for you already]
+(4) if you'd like to crack a certain ciphertext. You need to run RsaCrack.java on another terminal and type in the required informaiton (i.e. the public key (e, c) and the ciphertext), then it will employ brute force algorithm to decrypt the ciphertext for you.
+
+<Details about this program>
+(1) The threaded-server runs on local host (i.e. ipv4 = 127.0.0.1).
