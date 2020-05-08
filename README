@@ -1,4 +1,4 @@
-@Author: Chen-Wei Tang
+@Author: ct95
 
 <How does the program work>
 There are 4 files on the code repository. They are Rsa.java ChatServer.java ChatClient.java RsaCrack.java respectively. The Rsa.java is the basic blue print for any object uses RSA cryptosystem. The ChatServer.java and ChatClient.java are the client and server of this chat program. The RsaCrack.java is to crack a key using a brute force algorithm to decrypt an unknown user's ciphertext.
